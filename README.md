@@ -4,7 +4,7 @@ This project is linked to a submission to International Journal of Geographical 
 
 The project includes both the data and codes that support this study.
 ## The architecture of the model:
-![architecture](./Figures/Figure1.png){ width=50% }
+![architecture](./Figures/Figure1.png){:height="36px" width="36px"}
 ## Content:
 In the folder Data, there are:
 
