@@ -29,3 +29,6 @@ The core of the program lies in the two python scripts:
 The environment required for this project includes:
 
 Python 3.8; Pytorch; Pytorch-geometric; Stellargraph; Pandas; sklearn; Scipy
+# Contact
+Weiming Huang
+weiming.huang@nateko.lu.se
