@@ -1,4 +1,4 @@
-# Functional distribution with semantics preserved POI embedding
+# Semantics preserved POI embedding
 
 This project is linked to a submission to International Journal of Geographical Information Science, entitled “Estimating urban functional distributions with semantics preserved POI embedding”, which proposes a novel method for estimating functional distributions of urban regions (proportions of different function types in each region) with POIs.
 
