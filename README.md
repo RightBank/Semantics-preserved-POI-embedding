@@ -3,7 +3,9 @@
 This project is linked to a submission to International Journal of Geographical Information Science, entitled “Estimating urban functional distributions with semantics preserved POI embedding”, which proposes a novel method for estimating functional distributions of urban regions (proportions of different function types in each region) with POIs.
 
 The project includes both the data and codes that support this study.
-
+## The architecture of the model:
+![architecture](Figures/Figure1.png)
+## Content:
 In the folder Data, there are:
 
 1) Xiamen_region_partition.7z: a polygon shapefile that partitions the study area into a number of TAZs, which are used as the basic units for functional distribution estimation.
