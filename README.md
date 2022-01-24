@@ -31,4 +31,5 @@ The environment required for this project includes:
 Python 3.8; Pytorch; Pytorch-geometric; Stellargraph; Pandas; sklearn; Scipy
 # Contact
 Weiming Huang
-weiming.huang@nateko.lu.se
+
+Email: weiming.huang@nateko.lu.se
