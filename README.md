@@ -18,13 +18,11 @@ The core of the program lies in the two python scripts:
 
 1) poi_representation.py: this python script learns the POI (category) embeddings using the proposed approach. This script is linked to two other scripts:
 
-a) poi_network.py that constructs POI DT networks from the data and performs spatially-explicit random walks on the network.
+  - poi_network.py that constructs POI DT networks from the data and performs spatially-explicit random walks on the network.
 
-b) Variables.py that stores the hyperparameters used in the learning process; detailed annotations can be found in the script.
+  - Variables.py that stores the hyperparameters used in the learning process; detailed annotations can be found in the script.
 
-2) functional_distribution_learning.py: this script learns the functional distributions of the regions with the POI embeddings. Note that mocked ground truth data is used in this script.
-
-Both of the poi_representation.py: and functional_distribution_learning.py scripts can be directly run to reproduce the processes of the study once a proper environment is set up.
+  - functional_distribution_learning.py: this script learns the functional distributions of the regions with the POI embeddings. Note that mocked ground truth data is used in this script.
 
 The environment required for this project includes:
 
