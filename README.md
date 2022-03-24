@@ -40,7 +40,7 @@ If you use the code in this project, please cite the paper in IJGIS
   author={Huang, Weiming and Cui, Lizhen and Chen, Meng and Zhang, Daokun and Yao, Yao},
   journal={International Journal of Geographical Information Science},
   year={2022},
-  publisher={Taylor \& Francis}
+  doi={10.1080/13658816.2022.2040510}
 }
 ```
 
