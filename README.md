@@ -30,6 +30,20 @@ The core of the program lies in the two python scripts:
 The environment required for this project includes:
 
 Python 3.8; Pytorch; Pytorch-geometric; Stellargraph; Pandas; sklearn; Scipy
+
+## Citation
+
+If you use the code in this project, please cite the paper in IJGIS
+```
+@article{huang2022estimating,
+  title={Estimating urban functional distributions with semantics preserved POI embedding},
+  author={Huang, Weiming and Cui, Lizhen and Chen, Meng and Zhang, Daokun and Yao, Yao},
+  journal={International Journal of Geographical Information Science},
+  year={2022},
+  publisher={Taylor \& Francis}
+}
+```
+
 # Contact
 Weiming Huang
 
