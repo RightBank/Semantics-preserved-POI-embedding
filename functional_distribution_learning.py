@@ -73,7 +73,8 @@ def train():
         data = data.to(device)
         optimizer.zero_grad()
         y_estimated = model(data)
-        loss = F.kl_div(torch.log(y_estimated), data.y.float(), reduction='batchmean').float()
+        loss = F.kl_div(torch.log(y_estimated.reshape((-1, 10))), data.y.reshape((-1, 10)).float(), 
+                        reduction='batchmean').float()
         p_a += (y_estimated - data.y).abs().sum()
         loss.backward()
         loss_all += loss.item() * data.num_graphs
@@ -93,7 +94,8 @@ def test(loader):
         y_estimated = model(data)
         error += ((y_estimated - data.y).abs().sum())
         canberra_distance += canberra(y_estimated.cpu().detach().numpy(), data.y.cpu().detach().numpy())
-        kl_dist += F.kl_div(torch.log(y_estimated), data.y.float(), reduction='batchmean').float()
+        kl_dist += F.kl_div(torch.log(y_estimated.reshape((-1, 10))), data.y.reshape((-1, 10)).float(),
+                            reduction='batchmean').float()
         chebyshev_distance += chebyshev(y_estimated.cpu().detach().numpy(), data.y.cpu().detach().numpy())
         cos = torch.nn.CosineSimilarity(dim=0, eps=1e-6)
         cos_dist += cos(y_estimated, data.y)
