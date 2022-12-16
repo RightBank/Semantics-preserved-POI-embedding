@@ -17,6 +17,8 @@ In the folder Data, there are:
 
 2) mock_ground_truth.tensor: the mocked ground truth data. The real ground truth data can be requested from http://geoscape.pku.edu.cn/en.html. Note that the ground truth data is the proportional distributions of urban functions, which is derived through overlapping a urban function classification map and the polygons in Xiamen_region_partition.7z:
 
+For POIs, you could request data in the research area through Baidu Map's official API, see https://lbsyun.baidu.com/. Or send email to weiming.huang@nateko.lu.se. 
+
 The core of the program lies in the two python scripts:
 
 1) poi_representation.py: this python script learns the POI (category) embeddings using the proposed approach. This script is linked to two other scripts:
