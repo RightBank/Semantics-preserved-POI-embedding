@@ -11,10 +11,6 @@ In the folder Data, there are:
 
 1) Xiamen_region_partition.7z: a polygon shapefile that partitions the study area into a number of TAZs, which are used as the basic units for functional distribution estimation.
 
-
-
-
-
 2) mock_ground_truth.tensor: the mocked ground truth data. The real ground truth data can be requested from http://geoscape.pku.edu.cn/en.html. Note that the ground truth data is the proportional distributions of urban functions, which is derived through overlapping a urban function classification map and the polygons in Xiamen_region_partition.7z:
 
 For POIs, you could request data in the research area through Baidu Map's official API, see https://lbsyun.baidu.com/. Or send email to weiming.huang@nateko.lu.se. 
